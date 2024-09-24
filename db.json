@@ -1,19 +1,44 @@
 {
-  "posts": [
+  "musics": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Congratulations",
+      "album": "Stoney",
+      "duration": "3:47",
+      "ArtistOrBand": "Post Malone (feat. Quavo)",
+      "genre": "Hip hop / Rap"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "GREECE",
+      "album": "Dark Lane Demo Tapes",
+      "duration": "3:40",
+      "ArtistOrBand": "Drake",
+      "genre": "Hip hop / Rap"
+    },
+    {
+      "id": 3,
+      "title": "FE!N",
+      "album": "Utopia",
+      "duration": "3:14",
+      "ArtistOrBand": "Travis Scott (feat. Playboi Carti)",
+      "genre": "Hip hop / Rap"
+    },
+    {
+      "id": 4,
+      "title": "Não Temos Medo",
+      "album": "Não Temos Medo",
+      "duration": "2:15",
+      "ArtistOrBand": "TZ da Coronel",
+      "genre": "Hip hop / Rap"
+    },
+    {
+      "id": 5,
+      "title": "MEMPHIS DEPAY É DO CORINTHIANS!",
+      "album": "Ison",
+      "duration": "1:57",
+      "ArtistOrBand": "FutParódias",
+      "genre": "Funk"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -1,1 +1,26 @@
-<p>music-table works!</p>
+<div class="container">
+    <h1>Tabela de Músicas</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Title</th>
+                <th scope="col">Álbum</th>
+                <th scope="col">Duração</th>
+                <th scope="col">Artista/Banda</th>
+                <th scope="col">Gênero</th>
+                <th scope="col">Opções</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            <tr *ngFor="let music of musics">
+                <th scope="row">{{music.title}}</th>
+                <td>{{music.album}}</td>
+                <td>{{music.duration}}</td>
+                <td>{{music.artistOrBand}}</td>
+                <td>{{music.genre}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
