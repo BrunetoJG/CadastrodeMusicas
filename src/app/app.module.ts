@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MusicTableComponent } from './music-table/music-table.component';
+import { TypesComponent } from './types/types.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MusicTableComponent,
+    TypesComponent
   ],
   imports: [
     BrowserModule,
