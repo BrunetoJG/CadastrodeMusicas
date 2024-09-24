@@ -1,27 +1,25 @@
 <section id="musicsTableSection">
-    <h1>Tabela de Músicas</h1>
+    <h1>Listador de músicas!</h1>
+    <hr>
     <table>
         <thead>
             <tr>
-                <th scope="col">Id</th>
-                <th scope="col">Título </th>
-                <th scope="col">Álbum</th>
-                <th scope="col">Duração</th>
-                <th scope="col">Artista/Banda</th>
-                <th scope="col">Gênero</th>
-                <th scope="col">Opções</th>
+                <th>Título</th>
+                <th>Álbum</th>
+                <th>Duração</th>
+                <th>Artista/Banda</th>
+                <th>Gênero</th>
+                <th>Opções</th>
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let music of musics">
-                <th scope="row">{{music.id}}</th>
-                <td>{{music.title}}</td>
+                <th>{{music.title}}</th>
                 <td>{{music.album}}</td>
                 <td>{{music.duration}}</td>
                 <td>{{music.artistOrBand}}</td>
                 <td>{{music.genre}}</td>
                 <td><app-button-delete (click)="delete(music)"></app-button-delete></td>
-                
             </tr>
         </tbody>
     </table>

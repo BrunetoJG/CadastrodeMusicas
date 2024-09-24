@@ -8,9 +8,7 @@ import { musicsService } from '../../services/music.service';
   styleUrl: './music-table.component.css'
 })
 export class MusicTableComponent implements OnInit{
-delete(_t16: Music) {
-throw new Error('Method not implemented.');
-}
+
 
   musics: Music[] = [
     
@@ -27,6 +25,14 @@ loadmusics(){
   this.service.getMusics().subscribe({
     next: data => this.musics = data
   });
+ 
 }  
 
+delete(music: Music) {
+  this.service.delete(music).subscribe({
+    next: () => this.loadmusics()
+  })
 }
+
+}
+
