@@ -5,7 +5,7 @@
       "title": "Congratulations",
       "album": "Stoney",
       "duration": "3:47",
-      "ArtistOrBand": "Post Malone (feat. Quavo)",
+      "artistOrBand": "Post Malone (feat. Quavo)",
       "genre": "Hip hop / Rap"
     },
     {
@@ -13,7 +13,7 @@
       "title": "GREECE",
       "album": "Dark Lane Demo Tapes",
       "duration": "3:40",
-      "ArtistOrBand": "Drake",
+      "artistOrBand": "Drake",
       "genre": "Hip hop / Rap"
     },
     {
@@ -21,7 +21,7 @@
       "title": "FE!N",
       "album": "Utopia",
       "duration": "3:14",
-      "ArtistOrBand": "Travis Scott (feat. Playboi Carti)",
+      "artistOrBand": "Travis Scott (feat. Playboi Carti)",
       "genre": "Hip hop / Rap"
     },
     {
@@ -29,7 +29,7 @@
       "title": "Não Temos Medo",
       "album": "Não Temos Medo",
       "duration": "2:15",
-      "ArtistOrBand": "TZ da Coronel",
+      "artistOrBand": "TZ da Coronel",
       "genre": "Hip hop / Rap"
     },
     {
@@ -37,7 +37,7 @@
       "title": "MEMPHIS DEPAY É DO CORINTHIANS!",
       "album": "Ison",
       "duration": "1:57",
-      "ArtistOrBand": "FutParódias",
+      "artistOrBand": "FutParódias",
       "genre": "Funk"
     }
   ]
